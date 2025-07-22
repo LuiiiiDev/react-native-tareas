@@ -56,7 +56,6 @@ export default function Home({ navigation }) {
           <Button
             title="Ver Información del Estudiante"
             onPress={handleNavigateToStudent}
-            backgroundColor="#4CAF50"
           />
         </View>
       </View>
@@ -135,5 +134,6 @@ const styles = StyleSheet.create({
   },
   buttonContainer: {
     marginBottom: 20,
+    backgroundColor: "#4CAF50"
   },
 });

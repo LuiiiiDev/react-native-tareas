@@ -9,7 +9,7 @@ import CardStudent from '../components/CardStudent';
 import Button from '../components/Button';
 
 export default function Student({ navigation }) {
-  // Datos del estudiante - aquí pondrás tu información
+  // Datos del estudiante
   const studentData = {
     fullName: "Luis José Escobar Romero",
     age: 18,
